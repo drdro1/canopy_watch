@@ -1,0 +1,30 @@
+.env
+.env.yaml
+
+# OS generated files #
+######################
+.DS_Store
+__MACOSX
+# Jupiter Notebook #
+.pytest_cache
+__pycache__
+*checkpoint.ipynb
+*.ipynb_checkpoints
+
+# intelliJ #
+.idea
+*.gz
+*PKG-INFO
+*.egg-info
+*.csv
+*.zip
+mlruns
+*.sqlite
+# IDE #
+*.vscode
+canopy-442811-d3f55a231cd0.json
+
+/data/
+/training_outputs/
+/streamlit/pics/
+data_predict/
